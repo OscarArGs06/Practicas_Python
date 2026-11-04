@@ -10,3 +10,4 @@ while True:
 for banda_nombre in bandas:
     print(banda_nombre)
 print(f"Escribiste {len(bandas)} bandas")
+print(f"Tu primera banda fue {bandas[0]}")
