@@ -1,0 +1,12 @@
+bandas = []
+banda=""
+while True:
+    banda = input("Escribe tu banda favorita: ")
+
+    if banda.lower() == "salir":
+        break
+    else:
+        bandas.append(banda)
+for banda_nombre in bandas:
+    print(banda_nombre)
+print(f"Escribiste {len(bandas)} bandas")
